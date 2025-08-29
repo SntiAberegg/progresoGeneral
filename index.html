@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Indicador de Progreso</title>
+</head>
+<body>
+  <h1>Estado General</h1>
+  <div class="status-container">
+    <div class="circle" id="progress-circle" style="--progress: 0deg;">
+      <span class="percentage" id="percentage">0%</span>
+    </div>
+    <div class="status-message" id="status-message">Cargando estado...</div>
+    <div class="last-update" id="last-update">Última actualización: -</div>
+    <button class="admin-btn" id="admin-btn">Modo Admin</button>
+  </div>
+
+  <!-- Input oculto rápido -->
+  <input type="number" id="input-rapido" min="0" max="100" placeholder="%"/>
+
+</body>
+</html>
