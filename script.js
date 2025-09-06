@@ -2,8 +2,8 @@
     // Estado global editable
     // ==========================
     window.estadoGlobal = {
-      pct: 70, // <--- Cambia este número antes de hacer commit para actualizar el estado
-      text: "Escribiendo el informe..."
+      pct: 85, // <--- Cambia este número antes de hacer commit para actualizar el estado
+      text: "Ultimos ajustes..."
     };
 
     // Elementos DOM
